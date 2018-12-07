@@ -16,7 +16,7 @@ services:
       Bridge-Zadanie-1:
         ipv4_address: 10.0.10.3
   java:
-    image: pati10/docker
+    image: patrycjade/docker
     networks:
      Bridge-mostek:
     depends_on:
